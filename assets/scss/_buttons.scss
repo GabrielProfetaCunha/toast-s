@@ -1,0 +1,27 @@
+.buttons {
+  .btn {
+    border: none;
+    outline: none;
+    color: $light;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 1.2rem;
+    border-radius: 4px;
+
+    &#success {
+      background: $success;
+    }
+
+    &#error {
+      background: $error;
+    }
+
+    &#warning {
+      background: $warning;
+    }
+
+    &#info {
+      background: $info;
+    }
+  }
+}
